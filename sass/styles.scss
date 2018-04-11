@@ -1,0 +1,32 @@
+/**
+* Initialise some variables for the Seed Generator
+**/
+$bgColour: #000;
+$txtColour: #fff;
+
+body {
+	background-color: $bgColour;
+	color: $txtColour;
+}	
+
+
+.center-panel {
+	margin: auto;
+	width: auto;
+	padding: 10px;
+	text-align: center;
+}
+
+.body-panel {
+	padding: 10px;
+
+	.iota-seed {
+		margin: 20px 0px 20px 0px;
+		width: 80%;
+		padding: 5px;
+	}
+
+	.generate-seed {
+
+	}
+}

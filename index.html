@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <title>IOTA Seed Generator</title>
+
+    <script>
+      const iotaJs = require('./js/iota.js');
+
+      window.jQuery = require('jquery');
+
+      function getSeed() {
+        event.preventDefault();
+
+        var newSeed = iotaJs.createSeed();
+
+        jQuery('input[name="iota-seed"]').val( newSeed );
+
+        console.log(newSeed);
+      }  
+    </script>    
+  </head>
+  <body>
+    <div class="center-panel">
+      <h1>Iota Seed Generator</h1>
+    </div>
+
+    <div class="body-panel">
+      New seed: <br/>
+
+      <form id="seed-generator" action="">
+
+
+        <div class="center-panel">
+          <input type="text" name="iota-seed" class="iota-seed" placeholder="Generated IOTA Seed"/>        
+          
+          <br />  
+
+          <input type="submit" value="Generate Seed" onClick="getSeed()"/>
+
+        </div>        
+      </form>
+    </div>
+
+    <div class="center-panel">
+      <img src="./img/iota_logo.png"/>
+    </div>
+  </body>
+</html>

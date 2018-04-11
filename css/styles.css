@@ -1,0 +1,19 @@
+/**
+* Initialise some variables for the Seed Generator
+**/
+body {
+  background-color: #000;
+  color: #fff; }
+
+.center-panel {
+  margin: auto;
+  width: auto;
+  padding: 10px;
+  text-align: center; }
+
+.body-panel {
+  padding: 10px; }
+  .body-panel .iota-seed {
+    margin: 20px 0px 20px 0px;
+    width: 80%;
+    padding: 5px; }

@@ -1,0 +1,24 @@
+{
+  "name": "Iota Seed Generator",
+  "version": "1.0.0",
+  "description": "A desktop application for securely generating Iota seeds offline",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Iota",
+    "crypto currency",
+    "seed"
+  ],
+  "author": "Anthony Mills",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "electron": "^1.8.4",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1",
+    "jquery": "^3.3.1"
+  },
+  "dependencies": {}
+}
