@@ -1,5 +1,5 @@
 {
-  "name": "Iota Seed Generator",
+  "name": "Iota_Seed_Generator",
   "version": "1.0.0",
   "description": "A desktop application for securely generating Iota seeds offline",
   "main": "main.js",
