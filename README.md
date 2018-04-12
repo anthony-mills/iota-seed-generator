@@ -14,6 +14,10 @@ _gulp_
 
 The code for the exact generation of the Iota seed was adapted from this [code snippet on github](https://gist.github.com/SteveFromTheOffice/c8448a09352337386f135a16bbb20d93).
 
+### Screenshots
+
+![Iota Seed Generator](/img/screenshot_1.png?raw=true "Iota Seed Generator")
+
 ### Licence
 
 Copyright (C) 2018 [Anthony Mills](http://www.anthony-mills.com)
