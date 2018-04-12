@@ -8,6 +8,7 @@
 
     <script>
       const iotaJs = require('../js/iota.js');
+      const copyToClip = require('copy-to-clipboard');
 
       window.jQuery = require('jquery');
 
@@ -17,8 +18,11 @@
         var newSeed = iotaJs.createSeed();
 
         jQuery('input[name="iota-seed"]').val( newSeed );
+        
+        copyToClip(newSeed);
 
-        console.log(newSeed);
+        jQuery(".msg-panel").css('opacity', '1');
+        jQuery(".msg-panel").html('New seed copied to clipboard').fadeTo( 1800, 0 );
       }  
     </script>    
   </head>
@@ -28,11 +32,13 @@
     </div>
 
     <div class="body-panel">
+      <div class="center-panel">
+        <div class="msg-panel"></div>
+      </div>
+
       New seed: <br/>
 
       <form id="seed-generator" action="">
-
-
         <div class="center-panel">
           <input type="text" name="iota-seed" class="iota-seed" placeholder="Generated IOTA Seed"/>        
           

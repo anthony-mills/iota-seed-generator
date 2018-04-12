@@ -10,6 +10,9 @@ body {
   width: auto;
   padding: 10px;
   text-align: center; }
+  .center-panel .msg-panel {
+    color: #00f900;
+    height: 20px; }
 
 .body-panel {
   padding: 10px; }
