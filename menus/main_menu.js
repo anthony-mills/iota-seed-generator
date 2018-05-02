@@ -40,12 +40,11 @@ const template = [
     submenu: [
       {
         label: 'Visit the home of the Iota project',
-        click () { require('electron').shell.openExternal('https://github.com/anthony-mills/iota-seed-generator') }
+        click () { require('electron').shell.openExternal('https://iota.org')       }    
       },
       {
         label: 'Iota Seed Generator on Github',
-        click () { require('electron').shell.openExternal('https://iota.org') }
-      }      
+        click () { require('electron').shell.openExternal('https://github.com/anthony-mills/iota-seed-generator') }  
     ]
   }
 ]
